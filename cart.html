@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-WVKNV3S7');</script>
+    <!-- End Google Tag Manager -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Shop - Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WVKNV3S7"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <header>
+        <nav>
+            <div class="logo">Demo Shop</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="cart.html" class="active">Cart <span id="cart-count">0</span></a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <h1>Your Cart</h1>
+        
+        <div id="cart-items">
+            <!-- Cart items will be dynamically added here -->
+            <p id="empty-cart-message">Your cart is empty.</p>
+        </div>
+        
+        <div id="cart-summary">
+            <div class="total">
+                <h3>Total: <span id="cart-total">$0.00</span></h3>
+            </div>
+            <a href="checkout.html" class="btn" id="checkout-btn" disabled>Proceed to Checkout</a>
+        </div>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Demo Shop - For Google Analytics Demo</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <!-- Google Analytics code would go here -->
+</body>
+</html>
